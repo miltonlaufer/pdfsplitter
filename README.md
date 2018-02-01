@@ -29,7 +29,7 @@ or
 
 $ python pdfkindle ORIGINAL.pdf FINAL.pdf rotateClockwiseINTEGER
 
-(you can ommit the "python" if the file has execution permissions --i.e., "chmod +x pdfkindle")
+(you can ommit the "python" if the file has execute permissions --i.e., "chmod +x pdfkindle")
 
 Please remember the paths are relative, so if you have your script on "/home/myuser/", you'll need to execute this way:
 
