@@ -9,6 +9,9 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753).
 
 
 
+Python (of course) has to be installed: https://www.python.org/downloads/ 
+
+
 
 USAGE:
 
