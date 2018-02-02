@@ -41,4 +41,6 @@ $ python /home/myuser/pdfkindle /home/myuser/somepdfs/ORIGINAL.pdf
 
 the output file will be saved on the current folder.
 
+BATCH JOBS:
 
+$ for i in *.pdf; do python pdfkindle $i; done
