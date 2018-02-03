@@ -13,8 +13,8 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 
 ### Screenshots
 
-![Screenshot 1](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/screenshots/pdf_kindle_01.png?raw=true)
-![Screenshot 2](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/screenshots/pdf_kindle_02.png?raw=true)
+![Screenshot 1](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_01.png)
+![Screenshot 2](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_02.png)
 
 ## Installation and use
 
