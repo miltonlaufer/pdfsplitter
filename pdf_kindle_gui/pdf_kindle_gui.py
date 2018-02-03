@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from Tkinter import *
 import tkFileDialog
 import ntpath
 import os
