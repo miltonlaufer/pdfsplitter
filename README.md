@@ -1,7 +1,7 @@
 ![Logo](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/icon.png)
 
 # PDF Splitter, Rotate and Crop for Kindle 
-### (or any other eBook reader):
+### (or any other eBook reader)
 
 # Description:
 
