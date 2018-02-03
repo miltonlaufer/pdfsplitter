@@ -6,7 +6,7 @@
 A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with rotation and cropping. 
 
 
-** Python (of course) has to be installed: https://www.python.org/downloads/ ** 
+* Python (of course) has to be installed: https://www.python.org/downloads/ * 
 
 
 # Option 1: Graphical User Interface:
