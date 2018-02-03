@@ -14,7 +14,7 @@
 <key>CFBundleDisplayName</key>
 <string>pdf_kindle_gui</string>
 <key>CFBundleIconFile</key>
-<string>icon.ico</string>
+<string>icon.icns</string>
 <key>CFBundlePackageType</key>
 <string>APPL</string>
 <key>LSBackgroundOnly</key>
