@@ -29,7 +29,7 @@
    '/home/milton/.local/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('pdf_kindle_gui',
-   '/home/milton/bin/pythonscripts/pythonscripts/pdf_kindle_gui/pdf_kindle_gui',
+   '/home/milton/bin/pythonscripts/pythonscripts/pdf_kindle_gui/pdf_kindle_gui.py',
    'PYSOURCE'),
   ('libz.so.1', '/lib/x86_64-linux-gnu/libz.so.1', 'BINARY'),
   ('_multibytecodec',
@@ -653,7 +653,7 @@
  [],
  False,
  False,
- 1517622946,
+ 1517648565,
  [('run',
    '/home/milton/.local/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-64bit/run',
    'EXECUTABLE')])
