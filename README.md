@@ -7,6 +7,11 @@
 
 A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with rotation and cropping. 
 
+## Before
+![BEFORE](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/Before.png)
+## After
+![AFTER](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/after02.png)
+
 
 **Python (of course) has to be installed:** https://www.python.org/downloads/ 
 
