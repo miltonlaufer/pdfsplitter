@@ -1,5 +1,5 @@
 # PDF Splitter, Rotate and Crop for Kindle 
-## (or any other eBook reader):
+### (or any other eBook reader):
 
 # Description:
 
@@ -16,7 +16,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 ![Screenshot 1](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_01.png)
 ![Screenshot 2](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_02.png)
 
-## Installation and use
+### Installation and use
 
 * Download the files on the [/pdf_kindle_gui](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/) folder.
 * Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd', press 'enter'; *Mac*... applications, maybe?), go to the folder where you put the files and:
