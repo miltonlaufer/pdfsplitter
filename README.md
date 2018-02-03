@@ -20,7 +20,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 
 ### Installation and use
 
-* Download the files on the [/pdf_kindle_gui](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/) folder.
+* Download the files from the [/pdf_kindle_gui](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/) folder.
 * Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd', press 'enter'; *Mac*... applications, maybe?), go to the folder where you put the files and:
     python pdf_kindle_gui
 * From there, it's pretty intuitive. 
@@ -30,7 +30,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 # Option 2: Terminal
 ## (Good for batch jobs).
 
-* Download the files on the [/pdf_kindle/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle) folder.
+* Download the files from the [/pdf_kindle/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle) folder.
 * Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd, press 'enter';Mac... Applications, maybe?), go to the folder where you put the files and choose one of the following options
 
 USAGE:
