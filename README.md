@@ -9,7 +9,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 **Python (of course) has to be installed:** https://www.python.org/downloads/ 
 
 
-# Option 1: Graphical User Interface:
+# Option 1: Graphical User Interface
 
 * Download the files on the [/pdf_kindle_gui](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/) folder.
 * Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd', press 'enter'; *Mac*... applications, maybe?), go to the folder where you put the files and:
