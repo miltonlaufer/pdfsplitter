@@ -1,4 +1,4 @@
-# PDF Splitter, Rotate and Crop for kindle 
+# PDF Splitter, Rotate and Crop for Kindle 
 ## (or any other eBook reader):
 
 # Description:
@@ -12,7 +12,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 # Option 1: Graphical User Interface:
 
 * Download the files on the [/pdf_kindle_gui](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/) folder.
-* Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd, press 'enter';Mac... Applications, maybe?), go to the folder where you put the files and:
+* Open a terminal (*Ubuntu*: 'ctrl+alt+t'; *Windows*: 'Windows+R' and then write 'cmd', press 'enter'; *Mac*... applications, maybe?), go to the folder where you put the files and:
     python pdf_kindle_gui
 * From there, it's pretty intuitive. 
 
@@ -52,6 +52,8 @@ or
 
 the output file will be saved on the current folder.
 
-##BATCH JOBS:
+## BATCH JOBS:
+
+The following splits all the PDFs on the current dir. You can add to this command any of the options from above.  
 
      for i in *.pdf; do python pdfkindle $i; done
