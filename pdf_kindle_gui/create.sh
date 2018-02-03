@@ -9,5 +9,5 @@ if [ "$1" == "macos" ]; then
 	specpath="./macos/"
 fi
 
-pyinstaller --onefile --windowed --add-data 'icon.png:.' --icon=icon.ico --clean pdf_kindle_gui.py --workpath "$workpath" --distpath "$distpath" --specpath "$specpath"
+pyinstaller --onefile --windowed --add-data "$PWD/icon.png:." --icon=icon.ico --clean pdf_kindle_gui.py --workpath "$workpath" --distpath "$distpath" --specpath "$specpath"
 
