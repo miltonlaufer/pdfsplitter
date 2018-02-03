@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['pdf_kindle_gui'],
-             pathex=['/home/milton/bin/pythonscripts/pdf_kindle_distribution'],
+             pathex=['/home/milton/bin/pythonscripts/pythonscripts/pdf_kindle_gui'],
              binaries=[],
              datas=[('icon.png', '.')],
              hiddenimports=[],
