@@ -1,4 +1,3 @@
-***********
 #PDF Splitter, Rotate and Crop for kindle 
 ##(or any other eBook reader):
 
