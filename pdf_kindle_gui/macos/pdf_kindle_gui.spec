@@ -6,7 +6,7 @@ block_cipher = None
 a = Analysis(['../pdf_kindle_gui.py'],
              pathex=['./macos/'],
              binaries=[],
-             datas=[('/Users/osk/checkouts/pythonscripts/pdf_kindle_gui/icon.png', '.')],
+             datas=[('icon.png', '.')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
@@ -26,8 +26,8 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=False , icon='icon.ico')
+          console=False , icon='icon.icns')
 app = BUNDLE(exe,
              name='pdf_kindle_gui.app',
-             icon='icon.ico',
+             icon='icon.icns',
              bundle_identifier=None)
