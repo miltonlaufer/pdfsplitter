@@ -57,3 +57,7 @@ the output file will be saved on the current folder.
 The following splits all the PDFs on the current dir. You can add to this command any of the options from above.  
 
      for i in *.pdf; do python pdfkindle $i; done
+
+For instance, if you want to rotate all the files 90º clockwise,
+
+     for i in *.pdf; do python pdfkindle $i 90; done
