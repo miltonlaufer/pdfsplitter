@@ -301,7 +301,7 @@ class Application(Frame):
 	self.o_crop_left.grid(row=2, column=1, padx=PAD_X, pady=7)
 
 	self.size = Label(cropping_frame, anchor=W)
-	self.size["text"] = "First page dimensions of current document: NO DOCUMENT SELECTED"
+	self.size["text"] = "Dimensions for first page of current document: NO DOCUMENT SELECTED"
 	self.size["font"]=("Helvetica", 10)
 	self.size.grid(row=4, column=0,
 				columnspan=4, padx=PAD_X, pady=10, sticky=E)
