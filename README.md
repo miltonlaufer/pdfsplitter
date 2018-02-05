@@ -34,7 +34,11 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 
 #### UPDATE
 
-There's a GUI working version for Mac OS: Get the file from +pdf_kindle_gui.app+ file from [/pdf_kindle_gui/macos/macos/dist/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/macos/macos/dist/).
+##### There are now GUI working versions for Mac OS, Windows and Linux.
+
+*Mac*: Get the +pdf_kindle_gui.app+ file from [/pdf_kindle_gui/macos/macos/dist/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/macos/macos/dist/).
+*Windows*: Get +pdf_kindle_gui.exe+ file from [/pdf_kindle_gui/dist_windows/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/dist_windows/).
+*Linux*: Get +pdf_kindle_gui+ file from [/pdf_kindle_gui/dist/](https://github.com/miltonlaufer/pythonscripts/tree/master/pdf_kindle_gui/dist/).
 
 ##### Mac OS Screenshots (by Osk)
 
