@@ -14,7 +14,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 
 
 ~~Python (of course) has to be installed:** https://www.python.org/downloads/~~ 
-**Not python mandatory for GUI versions** (See below, "UPDATE") 
+**Not python mandatory for GUI versions** (See below, ["UPDATE"](https://github.com/miltonlaufer/pythonscripts#update-gui-standalone-distributions) ) 
 
 
 # Option 1: Graphical User Interface
@@ -22,7 +22,7 @@ A PDF page splitter (based on http://stackoverflow.com/a/15741856/1301753), with
 ### Screenshots
 
 ![Screenshot 1](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_01.png)
-![Screenshot 2](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_kindle_02.png)
+![Screenshot 2](https://raw.githubusercontent.com/miltonlaufer/pythonscripts/master/pdf_kindle_gui/screenshots/pdf_splitterWithPreview.png)
 
 ### Installation and use
 
