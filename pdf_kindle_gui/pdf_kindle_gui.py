@@ -56,16 +56,21 @@ class Application(Frame):
 
 	print "TOTAL PAGES: "+str(self.fPDF.getNumPages())
 
-	prevrote=0
+	prevrote=self.fPDF.getPage(1).get('/Rotate')
+
+	if prevrote==None:
+		prevrote=0
+
+	print "Document previous rotation: "+str(prevrote)
 
 	for num in range(self.fPDF.getNumPages()):
 		p=self.fPDF.getPage(num)
 		if any(i > 0 for i in crop):
-			print "Cropping"
+			print "Cropping..."
 			t1, t2=p.mediaBox.lowerLeft
 			t3, t4=p.mediaBox.upperRight
 	
-			prevrote=p.get('/Rotate')
+
 	
 			if prevrote==90:
 		 		p.mediaBox.upperRight = (t3-crop["b"], t4-crop["r"])
@@ -80,13 +85,13 @@ class Application(Frame):
 		 		p.mediaBox.upperRight = (t3-crop["r"], t4-crop["t"])
 				p.mediaBox.lowerLeft = (t1+crop["l"], t2+crop["b"])
 		
-			print str(p.get('/Rotate'))
+
 
 		if rotate>0:
 		   	p.rotateClockwise(rotate)
 	
 		if split:
-			print "splitting"		
+			print "Splitting..."		
 			q = copy.copy(p)
 			q.mediaBox = copy.copy(p.mediaBox)
 			x1, x2 = p.mediaBox.lowerLeft
@@ -171,11 +176,11 @@ class Application(Frame):
 	prop=200/self.initialWidth
 	
 	if self.var_split.get()==1 and self.initialWidth>0:
-		print "Proporcion es "+str(prop)
+		print "Set proportion to "+str(prop)
 		middle=self.nCL*prop+(self.img.width-self.nCR*prop-self.nCL*prop)/2
 		self.myImage.create_line(middle, 0, middle, self.img.height, fill="red", dash=(4, 4))
 	else:
-		print "Initial width era: "+str(self.initialWidth)
+		print "Initial width was: "+str(self.initialWidth)
 
 	self.myImage.create_rectangle(self.nCL*prop, self.nCT*prop, self.img.width-self.nCR*prop, self.img.height-self.nCB*prop, outline="blue")
 
@@ -213,7 +218,12 @@ class Application(Frame):
 	points=[t1,t2,t3,t4]
 
 	try:
-		size=self.calSize(self.pos(points,p.get('/Rotate')/90))
+		prevrote=self.fPDF.getPage(1).get('/Rotate')
+
+		if prevrote==None:
+			prevrote=0
+
+		size=self.calSize(self.pos(points,prevrote/90))
 	except:
 		self.size["text"]= "NOT AN IMAGE PDF\nTRY WITH A DIFFERENT DOCUMENT"
 		self.set_message(self.size["text"])
@@ -242,8 +252,10 @@ class Application(Frame):
 
 	if self.split_pages(self.in_file, output_file, int(self.rotate), {"t":self.nCT,  "r":self.nCR, "b":self.nCB,"l":self.nCL}, (self.var_split.get()==1))==True:
 		self.set_message("FILE SPLITTED!\nCheck the folder where\nthe original file is")
+		print "File splitted succesfully!"
 	else:
 		self.set_message("ERROR: There was a problem splitting your PDF.\nTry printing it as a new PDF using your \nsystem's PDF reader and try again with that new file")
+		print "*** THERE WAS AN ERROR SPLITTING THE DOCUMENT ***"
 
     def rotate_selection(self, value):
 	self.rotate=value
@@ -251,6 +263,7 @@ class Application(Frame):
 	self.setImage()
 
     def updateC(self, *args):
+	print "------------------"
 	print "Updating crop values"
 	try:
 		self.nCL=int(self.crop_left.get())
@@ -261,12 +274,13 @@ class Application(Frame):
 		print "T: "+str(self.nCT)
 		self.nCR=int(self.crop_right.get())
 		print "R: "+str(self.nCR)
-
+		print "------------------"
 		self.setImage()
 
 		return True
 	except:
 		print "Not all integers"
+		print "------------------"
 		return False
 
     def createWidgets(self):
@@ -457,7 +471,7 @@ def main():
 		imgicon = PhotoImage(file=resource_path("icon.png")) #'os.path.join(os.path.dirname(os.path.realpath(__file__)),'icon.png'))
 		root.tk.call('wm', 'iconphoto', root._w, imgicon)  
 	except:
-		print "no anduvo"
+		print "*** ERROR: Icon not set ***"
 	
 	#root.geometry("450x340")
 	
